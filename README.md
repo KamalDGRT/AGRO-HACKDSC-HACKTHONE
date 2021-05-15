@@ -21,7 +21,7 @@ Runs the app in the localhost:3000
 
 and the backend will run in the port 3001
 
-you don't need to bother about the backEnd the frotEnd will load on your default browser  
+you don't need to bother about the backEnd the frontEnd will load on your default browser  
 
 ## About the team and the product
 
