@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "cd Client && npm install && cd .. && npm install",
     "start": "nodemon ./bin/www",
     "client": "npm start --prefix Client",
-    "mern":"concurrently \"npm run start\" \"npm run client\""
+    "mern": "concurrently \"npm run start\" \"npm run client\""
   },
   "engines": {
     "node": "10.19.0"
