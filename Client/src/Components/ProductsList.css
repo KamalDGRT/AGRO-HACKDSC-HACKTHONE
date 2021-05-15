@@ -1,0 +1,15 @@
+.productList_container {
+  position: relative;
+}
+.productList_container h1 {
+  margin: 10px;
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 78px;
+}
+.products_cards{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}

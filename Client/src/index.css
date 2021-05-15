@@ -1,0 +1,12 @@
+:root{
+    --font:white;
+    --background:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}

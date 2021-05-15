@@ -1,0 +1,10 @@
+.header-container {
+	width: 100vw;
+	height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #fff;
+    background-color: var(--background);
+    position: fixed;
+}

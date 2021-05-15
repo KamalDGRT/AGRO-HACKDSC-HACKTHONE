@@ -1,0 +1,30 @@
+.admin-nav-menu-container {
+	width: 15%;
+	position: fixed;
+	top: 16vh;
+	background-color: var(--background);
+	height: 84vh;
+}
+.admin-nav-menu-container  button {
+	width: 100%;
+	border: none;
+	padding: 2rem 0;
+	font-size: 1.1rem;
+	font-weight: bolder;
+	background-color: #111010;
+	color: #fff;
+	cursor: pointer;
+}
+.admin-nav-menu-container  button:hover {
+	background-color: rgba(54, 65, 70, 0.52);
+}
+@media only screen and (max-width:1100px){
+    .admin-nav-menu-container button {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:760px){
+    .admin-nav-menu-container{
+        transform: translate(-100%);
+    }      
+}

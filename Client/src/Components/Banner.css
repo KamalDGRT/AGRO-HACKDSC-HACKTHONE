@@ -1,0 +1,36 @@
+.banner_container {
+  margin: 0;
+  /* position: absolute; */
+  width: 100vw;
+  height: 80vh;
+  left: 0px;
+  top: 8.5vh;
+  background: url("./pexels-julia-volk-5273044.jpg");
+  box-shadow: inset 10000px 5px 5px rgba(66, 66, 66, 0.58);
+  background-position: center;
+  background-size: cover;
+}
+.banner_container h1 {
+  position: absolute;
+  /* width: 348px;
+  height: 59px; */
+  left: 573px;
+  top: 224px;
+  color: var(--font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  /* line-height: 59px; */
+}
+.banner_container h3 {
+  position: absolute;
+  /* width: 668px;
+  height: 42px; */
+  left: 512px;
+  top: 292px;
+  color: var(--font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  /* line-height: 44px; */
+}

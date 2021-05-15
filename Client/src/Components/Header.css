@@ -1,0 +1,89 @@
+.header_container{
+    top:0;
+    background-color: var(--background);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px;
+    z-index: 10;
+}
+.header_container h1{
+    color: var(--font);
+}
+
+.header_search{
+    width: 50%;
+    border-radius: 3px;
+    height: 25px;
+    background-color: var(--font);
+    display: flex; 
+    padding: 5px;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.header_search input {
+	border: 0;
+	outline: none;
+	height: 100%;
+	width: 90%;
+	padding-left: 1rem;
+}
+.header_search input ::placeholder{
+    padding: 10px;
+}
+.header_search button{
+    border: none;
+	outline: none;
+	width: 9rem;
+	padding: 1rem;
+    border-right: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_search input :focus{
+    outline: none;
+    border: none;
+}
+
+.header_searchicon{
+    width: 10%; 
+    height: 100%;
+}
+.header_nav{
+    color: var(--font);
+    display: flex;
+    height: 100%;
+    margin: 0 10px;
+}
+.header_nav .MuiSvgIcon-root{
+    margin: 5px;
+    height: 100%;
+}
+.header_nav h4{
+    color: var(--font);
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .header_search button {
+        width: 9rem;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+    .header_container h1 {
+        font-size: 1.3rem;
+    }
+    .header_container {
+        padding: 1rem 0;
+    }
+    .header_search {
+        height: 1.2rem;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 760px){
+    
+}
