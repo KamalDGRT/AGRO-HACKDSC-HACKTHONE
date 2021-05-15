@@ -21,10 +21,9 @@ Runs the app in the localhost:3000
 
 and the backend will run in the port 3001
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+you don't need to bother about the backEnd the frotEnd will load on your default browser  
 
-# About the team and the product
+## About the team and the product
 
 This is a MERN website made in a hackthone conducted by HACKDSC, 
 So we have prepared a website for farmers to sell their product 
